@@ -18,7 +18,7 @@ class MainActivityXml : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        AppCenter.start(application, "a7d884c8-8e04-4fdd-b5db-d83f3107109e", Analytics::class.java, Crashes::class.java);
+        AppCenter.start(application, "9bf8ec07-1910-43d8-a187-6259c1d1e849", Analytics::class.java, Crashes::class.java);
 
         binding.calculateButton.setOnClickListener {
             // Crashes.generateTestCrash()
