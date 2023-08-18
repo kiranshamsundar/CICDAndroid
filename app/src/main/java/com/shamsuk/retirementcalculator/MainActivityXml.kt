@@ -46,7 +46,7 @@ class MainActivityXml : AppCompatActivity() {
                     Analytics.trackEvent("wrong_age", properties)
                 }
 
-                resultTextView.text="At the current rate of $interestRate%, with your current monthly savings you will have \$1,000,000 by 65."
+                resultTextView.text="At the current rate of $interestRate, with your current monthly savings you will have \$1,000,000 by 65."
             } catch(ex: Exception){
                 Analytics.trackEvent(ex.message)
             }
